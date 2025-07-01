@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.name {
+    display: flex;
+    padding-left: 150px;
+}
+
+.profile-icon {
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.logo {
+    border-radius: 120px;
+    padding-top: 2px;
+    height: 160px;
+    width: 162px;
+    padding-bottom: 2px;
+}
+
+.Welchama-name {
+    color: black;
+    font-family: aerial;
+    font-size: 14px;
+}
+
+.welchama-title {
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 4px;
+}
+
+.moto {
+    padding-left: 0px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.login-box {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #34495e;
+}
+
+.signup-link {
+    margin-top: 15px;
+    display: block;
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.menu {
+    margin-top: 0px;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-top: 0px;
+    background-color: forestgreen;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    list-style: none;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.menu a {
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: blue;
+}
+
+.menu-btn {
+    background-color: forestgreen;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.menu-btn:hover {
+    background-color: #34495e;
+}
+
+.user-options {
+    display: none;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.user-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.login-forms-container {
+    display: none;
+}
+
+/*Section 4*/
+.information-site {
+    background-color: rgb(189, 198, 206);
+    display: flex;
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: large;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+.address {
+    font-size: small;
+}
+
+.affiliations {
+    padding-right: 50px;
+}
+
+.Quick-Access {
+    padding-right: 50px;
+}
